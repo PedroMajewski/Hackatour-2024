@@ -1,16 +1,16 @@
-.dropdown{
-    background-color: #d7d7d7;
-}
 
 .card_1{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #b9b9b9;
+    background-color: #e8e8e8;
+    border-style: solid;
     max-width: 20rem;
-    height: 30rem;
+    height: 45rem;
     padding: 3rem;
+    border-radius: 1.5rem;
+
 }
 
 .card_1 h2{
@@ -20,8 +20,8 @@
 
 .card_1 label{
     font-weight: 500;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 .card_1 p{
@@ -29,12 +29,61 @@
 
 }
 
+.card_1 h5{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.card_1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-positivo button{
     background-color: rgb(78, 169, 57);
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin-left: 0.3rem;
+    color: #1f1f1f;
+    cursor: pointer;
 }
+
+.btn-positivo button:hover{
+    background-color: rgb(108, 203, 87);
+}
+
 
 .btn-negativo button{
     background-color: rgb(169, 57, 57);
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin-left: 0.3rem;
+    color: #1f1f1f;
+    cursor: pointer;
+}
+
+.btn-negativo button:hover{
+    background-color: rgb(193, 71, 71);
+}
+
+.card_1 .imagens{
+    padding: 1.8rem 2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    transition: .2s;
+}
+
+.card_1 .imagens:hover{
+    transition: .2s;
+    transform: scale(1.1);
 }
 
 .div-cards{
@@ -42,4 +91,33 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    margin-top: 2.5rem;
+    height: 60rem;
 }
+
+.cards h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f1f1f;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
+.empresa-imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcdcdc;
+    margin-top: 1rem;
+}
+
+.empresa-imagens h2{
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
