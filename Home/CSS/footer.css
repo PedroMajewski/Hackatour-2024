@@ -1,0 +1,105 @@
+.footer{
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    background-color: #0f3b98;
+}
+
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+    margin-left: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer a{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: large;
+    margin-left: -9.35rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#linkrapidos{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: -10rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+#iniciofooter{
+    margin-top: -3rem;
+}
+
+#avaliacaofooter{
+    margin-top: 0rem;
+}
+
+#empresafooter{
+    margin-top: 3rem;
+}
+
+#nossamissao{
+    margin-top: 6rem;
+}
+
+.social-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+    margin-left: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-footer a{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: large;
+    margin-left: -9.35rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sociaislinks{
+    display: flex;
+    margin-left: 25rem;
+    margin-top: -10rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+#instafooter{
+    margin-top: -4rem;
+}
+
+#xfooter{
+    margin-top: 2rem;
+}
+
+#linkedinfooter{
+    margin-top: 3rem;
+}
+
+#emailfooter{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: large;
+    margin-left: -9.35rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 6rem;
+}
