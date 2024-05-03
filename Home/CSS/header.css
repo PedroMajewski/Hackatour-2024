@@ -1,4 +1,8 @@
 
+body{
+  font-family: 'Barlow', sans-serif;
+}
+
 .header-mobile{
     display: none;
 }

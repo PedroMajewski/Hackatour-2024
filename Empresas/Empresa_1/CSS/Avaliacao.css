@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+}
+
+.header-empresa{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 3rem;
+    height: 20rem;
+background-color: #dcdcdc;
+}
+
+.header-empresa img{
+    border-radius: 1rem;
+}
+
+.titulo{
+    display: flex;
+    align-items: baseline;  
+}
+
+.titulo h2{
+    padding-right: 1rem;
+}
+
+.descricao-empresa{
+    padding: 0 2rem; 
+}
+
+.descricao-empresa h2{
+    font-weight: 300; 
+}
+
+.descricao-empresa h5, p{
+    font-weight: 400; 
+}
+
+.descricao-empresa p{
+    max-width: 30rem;
+    font-size: 0.9rem; 
+}

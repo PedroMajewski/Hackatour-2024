@@ -1,0 +1,45 @@
+.dropdown{
+    background-color: #d7d7d7;
+}
+
+.card_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b9b9b9;
+    max-width: 20rem;
+    height: 30rem;
+    padding: 3rem;
+}
+
+.card_1 h2{
+    color: #000;
+    font-weight: 500;
+}
+
+.card_1 label{
+    font-weight: 500;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.card_1 p{
+    text-align: center;
+
+}
+
+.btn-positivo button{
+    background-color: rgb(78, 169, 57);
+}
+
+.btn-negativo button{
+    background-color: rgb(169, 57, 57);
+}
+
+.div-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
