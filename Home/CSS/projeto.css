@@ -1,4 +1,4 @@
-.projeto-principal{
+.div-principal{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     background-color: #0f3b98;
 }
 
-.texto{
+.texto-maneiro{
     margin-top: 0.35;
     margin-left: 15rem;
     font-family: 'Barlow', sans-serif;
@@ -15,7 +15,7 @@
     color: #fff;
 }
 
-.botao{ 
+.botao-maneiro{ 
     margin-top: 0.35rem;
     margin-right: 15rem;
     border-width: 0.1rem;
@@ -25,7 +25,7 @@
     width: 6rem;
 }
 
-.botao:hover{
+.botao-maneiro:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: .2s;
