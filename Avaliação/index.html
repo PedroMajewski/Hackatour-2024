@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Home/CSS/header.css">
+    <link rel="stylesheet" href="/Home/CSS/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="header-pc">
+        <div class="logo">
+            <img src="../Assets/Logo-previa.png" alt="Logo" height="80">
+            <h3>Turismo para Todos</h3>
+        </div>
+    <nav>
+        <h2><a href="">Início</a></h2>
+        <div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                  <i>Dropdown</i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="">Faça sua Avaliação</a>
+                    <a href="">Pesquise Avaliações</a>
+                </div>
+              </div>
+        </div>
+        <h2><a href="">Para sua Empresa</a></h2>
+        <h2><a href="">Nossa Missão</a></h2>
+        <button class='btn-header'><a href="">Login/Cadastro</a></button >
+    </nav>
+    </div>
+
+    <div class="header-mobile">
+        <img src="../Assets/Logo-previa.png" alt="Logo" height="80">
+    <nav>
+        <h2>Início</h2>
+        <h2>Avaliação</h2>
+        <h2>Para sua Empresa</h2>
+        <h2>Nossa Missão</h2>
+    </nav>
+    <button><a href="">Login/Cadastro</a></button>
+    </div>
+</header>
+
+<body>
+    <div class="div-principal">
+        <button class="retorno" onclick="history.back()">< Clique para retornar!</button>
+        <input type="text" placeholder="Escreva o título de sua avaliação" class="input-titulo">
+        <input type="text" placeholder="Qual seu tipo de deficiencia?" class="input-tipo">
+        <textarea tclass="notesheet" rows="30" cols="50" class="input-avaliacao" placeholder="Insira sua reclamação aqui"></textarea>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="logo-footer">
+        <img src="../Assets/Logo-previa.png" alt="Logo" height="80">
+        <span id="linkrapidos"><h2>Links Rápidos</h2></span>
+        <span id="iniciofooter"><a href="/Home/index.html">Inicio</a></span>
+        <span id="avaliacaofooter"><a href="/Avaliação/index.html">Avaliação</a></span>
+        <span id="empresafooter"><a href="/Home/Parasuaempresa/index.html">Para sua empresa</a></span>
+        <span id="nossamissao"><a href="#amissao">Nossa Missão</a></span>
+    </div>
+    <div class="social-footer">
+        <span id="sociaislinks"><h2>Redes Sociais</h2></span>
+        <span id="instafooter"><a href="https://www.instagram.com">Instagram</a></span>
+        <span id="xfooter"><a href="https://www.twitter.com">Twitter</a></span>
+        <span id="linkiedinfooter"><a href="www.linkedin.com">LinkedIn</a></span>
+        <span id="emailfooter"><p>TurismoParaTodos@email.com</p></span>
+    </div>
+</footer>
+</html>

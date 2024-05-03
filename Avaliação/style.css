@@ -1,0 +1,74 @@
+:root{
+    --principal:rgb(15, 59, 152);
+    --claro:#fff;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: var(--claro);
+    position: relative;
+}
+
+.div-principal{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    height: 800px;
+    width: 1156px;
+    border-radius: 1rem;
+    background-color: var(--principal);
+}
+
+.retorno{
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 45px;
+    border-radius: 15px;
+    color: #000;
+    transition: .2s;
+}
+
+.retorno:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s;
+    border-color: var(--claro);
+    background-color: var(--claro);
+    color: var(--principal);
+}
+
+.input-titulo{
+    position: absolute;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+.input-tipo{
+    position: absolute;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 600px;
+}
+
+.input-avaliacao{
+    position: absolute;
+    height: 300px;
+    width: 1055px;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: 45px;
+}
+
+.input-avaliacao{
+    resize: none;
+}
