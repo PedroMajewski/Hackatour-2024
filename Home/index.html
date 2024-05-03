@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="/Home/CSS/missao.css">
     <link rel="stylesheet" href="/Home/CSS/projeto.css">
     <link rel="stylesheet" href="/Home/CSS/avaliacao.css">
+    <link rel="stylesheet" href="/Home/CSS/pesquisa.css">
+    <link rel="stylesheet" href="/Home/CSS/parceiros.css">
+
 </head>
 <body>
     <header>
@@ -30,7 +33,7 @@
             <div>
                 <div class="dropdown">
                     <button class="dropbtn">
-                      <i>Dropdown</i>
+                      <i>Avaliação</i>
                     </button>
                     <div class="dropdown-content">
                         <a href="">Faça sua Avaliação</a>
@@ -40,25 +43,14 @@
             </div>
             <h2><a href="">Para sua Empresa</a></h2>
             <h2><a href="">Nossa Missão</a></h2>
-            <button class='btn-header'><a href="">Login/Cadastro</a></button >
+            <button class='btn-azul'><a href="">Login/Cadastro</a></button >
         </nav>
-        </div>
-
-        <div class="header-mobile">
-            <img src="../Assets/Logo-previa.png" alt="Logo" height="80">
-        <nav>
-            <h2>Início</h2>
-            <h2>Avaliação</h2>
-            <h2>Para sua Empresa</h2>
-            <h2>Nossa Missão</h2>
-        </nav>
-        <button><a href="">Login/Cadastro</a></button>
         </div>
     </header>
     <main>
         <section class="introducao">
             <h1>Transformando a acessibilidade no Turismo</h1>
-            <button><a href="">Pesquise Avaliações</a></button>
+            <button class="btn-azul"><a href="">Pesquise Avaliações</a></button>
         </section>
         <section class="missao" id="amissao">
                 <img src="../Assets/Placa.png" alt="" height="400">
@@ -77,10 +69,148 @@
             </div>
         </section>
 
+        <section class="pesquisa">
+            <h2>Encontre Empresas</h2>
+            <div class="barra-pesquisa">
+                <input 
+    id="search" 
+    type="search" 
+    placeholder="Insira o nome da Empresa..." 
+    list="sugestoes-busca" 
+    autocomplete="off"
+  />
+  <datalist id="sugestoes-busca">
+    <option value="Hotel das Cataratas">
+    <option value="Mabu Resort">
+    <option value="Rafain Churrascaria">
+    <option value="Pátio Pomare">
+  </datalist>
+            </div>
+            <div class="resultados">
+                <img src="../Assets/imagem-empresa1.jpeg" alt="" height="80">
+                <h3>Hotel das Cataratas</h3>
+                <h5>Tipo: Hotel</h5>
+                <h5>Avaliação: 25</h5>
+                <nav>
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                </nav>
+                <button class="btn-simples"><a href="../Empresas/Empresa_1/index.html">Detalhes</a></button>
+            </div>
+            <div class="resultados">
+                <img src="../Assets/imagem-empresa1.jpeg" alt="" height="80">
+                <h3>Hotel das Cataratas</h3>
+                <h5>Tipo: Hotel</h5>
+                <h5>Avaliação: 25</h5>
+                <nav>
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                </nav>
+                <button class="btn-simples"><a href="">Detalhes</a></button>
+            </div>
+            <div class="resultados">
+                <img src="../Assets/imagem-empresa1.jpeg" alt="" height="80">
+                <h3>Hotel das Cataratas</h3>
+                <h5>Tipo: Hotel</h5>
+                <h5>Avaliação: 25</h5>
+                <nav>
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                    <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                </nav>
+                <button class="btn-simples"><a href="">Detalhes</a></button>
+            </div>
+        </section>
         <section>
             <div class="div-principal">
                 <h2 class="texto-maneiro">Conheça nosso projeto!</h2>
                 <button class="botao-maneiro">Clique Aqui!</button>
+            </div>
+        </section>
+        <section class="apoiadores">
+            <h2>Conheça nossos parceiros</h2>
+            <div class="grid-apoiadores">
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                        </nav>
+                    </div>
+                </div>
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                        </nav>
+                    </div>
+                </div>
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-apoiadores">
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                        </nav>
+                    </div>
+                </div>
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                        </nav>
+                    </div>
+                </div>
+                <div class="quadrado">
+                    <div class="quadrado-div">
+                        <h3>Hotel Belmond Cataratas</h3>
+                        <nav>
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+                            <img src="../Assets/cadeira-icone.svg" alt="" height="20">
+
+                        </nav>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

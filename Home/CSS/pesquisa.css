@@ -1,0 +1,94 @@
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45rem;
+}
+
+
+.pesquisa h2{
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 0.5rem;
+        margin-top: 3rem;
+}
+
+.barra-pesquisa input{
+    background: transparent;
+    border-style: solid;
+    border-color: #1f1f1f;
+    padding: 1rem 30rem;
+    border-radius: 0.5rem;
+    text-align: start;
+    font-size: 1rem;
+    background-color: #e3e3e3;
+  min-width: 300px;
+  padding: 1rem 2rem;
+  border-radius: 24px;
+  border: 0px;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.resultados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #e3e3e3;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.resultados h3, h5, nav{
+    padding: 0 1rem;
+}
+
+.resultados img{
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.resultados img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.resultados h5{
+    font-weight: 400;
+}
+
+.resultados h3{
+    font-weight: 500;
+}
+
+.btn-simples{
+    font-size: 0.8rem;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    border-radius: 0.4rem;
+    margin: 0 1rem;
+    border-style: solid;
+    transition: .2s;
+    cursor: pointer;
+    border-color: #1f1f1f;
+}
+
+.btn-simples:hover{
+    color: #d8d8d8;
+    transition: .2s;
+    border-color: #8c8c8c;
+    transition: .2s;
+}
+
+
+
+.btn-simples a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.resultados nav img{
+    cursor: pointer;
+}

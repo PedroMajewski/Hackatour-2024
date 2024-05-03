@@ -23,7 +23,10 @@
     transition: .2s;
     height: 2.5rem;
     width: 6rem;
+    border-style: solid;
+    border: none;
 }
+
 
 .botao-maneiro:hover{
     cursor: pointer;
@@ -31,4 +34,6 @@
     transition: .2s;
     background-color: #fff;
     color: #000;
+    border-style: solid;
+    border: none;
 }
